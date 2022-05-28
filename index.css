@@ -1,29 +1,35 @@
-*{
+* {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: steelblue;
 }
 
-.mydivs{
+.mydivs {
     height: 100vh;
     overflow: hidden;
 }
 
-#btn1, #btn2, #btn3, #btn4{
+#btn1,
+#btn2,
+#btn3,
+#btn4 {
     display: none;
-    position: absolute;          /* important */
+    position: absolute;
+    /* important */
 }
 
-.arrow-down::after{
+.arrow-down::after {
     content: "";
     /* background-color: tomato; */
     width: 35px;
     height: 35px;
-    position: absolute;        /* important */
+    position: absolute;
+    /* important */
     margin: auto;
     top: 32rem;
     bottom: 0;
@@ -35,17 +41,19 @@ body{
     cursor: pointer;
 }
 
-#div1 h1{
+#div1 h1 {
     color: white;
     margin: 1rem;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
 }
-#div1 i{
+
+#div1 i {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
     color: white;
     font-size: 1.5rem;
 }
-#div1 p{
+
+#div1 p {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
     color: white;
     margin-top: 0.5rem;
@@ -53,61 +61,69 @@ body{
     font-size: 1.2rem;
 }
 
-.img-div{
+.img-div {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem;
 }
-#profile-pic{
+
+#profile-pic {
     width: 210px;
     height: 180px;
     border-radius: 50%;
 }
-#profile-pic img{
+
+#profile-pic img {
     height: 180px;
     border-radius: 50%;
 }
 
-#div1{
+#div1 {
     background-color: #16a596;
     display: flex;
     flex-direction: column;
-    align-items: center;        /* move items horizontally*/
-    justify-content: center;    /* move items vertically */
+    align-items: center;
+    /* move items horizontally*/
+    justify-content: center;
+    /* move items vertically */
     text-align: center;
     position: relative;
 }
 
 /* Page-2 */
-#div2{
+#div2 {
     display: flex;
     flex-direction: column;
-    align-items: center;        
+    align-items: center;
     justify-content: center;
     background-image: url("./images/computer.jpg");
     background-size: 100% 100%;
     text-align: center;
     position: relative;
 }
-#div2 div{
+
+#div2 div {
     background-color: rgba(3, 3, 3, 0.7);
     height: 100vh;
     width: 100vw;
     padding-left: 10%;
     padding-right: 10%;
 }
-#div2 div img{
+
+#div2 div img {
     width: 100px;
     height: 100px;
     margin-top: 10%;
 }
-#div2 div h1{
+
+#div2 div h1 {
     color: white;
     margin: 30px auto 30px;
     font-size: 1.6rem;
 }
-#div2 div p{
+
+#div2 div p {
     color: white;
     letter-spacing: 0.2px;
     font-size: 1rem;
@@ -115,28 +131,31 @@ body{
 }
 
 /* Page-3 */
-#div3{
+#div3 {
     display: flex;
     flex-direction: column;
-    align-items: center;        
+    align-items: center;
     justify-content: center;
     position: relative;
     background-color: #16a596;
 }
-.skill-title{
+
+.skill-title {
     position: absolute;
     top: 5%;
 }
-.skill-title h1{
+
+.skill-title h1 {
     color: white;
     text-shadow: 1px 1px 5px black;
 }
 
-.skill-set{
+.skill-set {
     display: flex;
-    justify-content: space-evenly;  
+    justify-content: space-evenly;
 }
-.skills{
+
+.skills {
     background-color: rgba(0, 0, 0, 0.8);
     width: 25%;
     padding: 5px;
@@ -145,30 +164,34 @@ body{
     color: white;
     border-radius: 5px;
 }
-.skills img{
+
+.skills img {
     width: 90px;
     height: 90px;
 }
-.skills h3{
+
+.skills h3 {
     margin: 5px;
     text-shadow: 1px 1px 1.5px black;
 }
-.skills p{
+
+.skills p {
     letter-spacing: 1.5px;
 }
 
 /* Page-4 */
-#div4{
+#div4 {
     display: flex;
     flex-direction: column;
-    align-items: center;        
+    align-items: center;
     justify-content: center;
     position: relative;
     background-image: url("./images/computer.jpg");
     background-size: 100% 100%;
-    
+
 }
-#div4-content{
+
+#div4-content {
     background-color: rgba(3, 3, 3, 0.3);
     height: 100vh;
     width: 100vw;
@@ -179,46 +202,59 @@ body{
     right: 0;
     text-align: center;
 }
-#div4-content h1{
+
+#div4-content h1 {
     color: white;
+    text-shadow: 1px 1px 2px black;
     margin-top: 13%;
     padding: 2px;
 }
-#div4-content p{
-   color: white; 
-   font-size: 0.6rem;
-   padding: 2px;
+
+#div4-content p {
+    color: white;
+    font-size: 0.6rem;
+    padding: 2px;
+    text-shadow: 1px 1px 2px black;
 }
-#name, #email, #btn{
+
+#name,
+#email,
+#btn {
     width: 50vw;
     height: 5vh;
     margin: 3px;
     padding: 1.5px;
 }
-#btn:hover{
+
+#btn:hover {
     background-color: darkgrey;
     border: none;
     outline: none;
     cursor: pointer;
 }
-#msg{
-    width: 50vw; 
-    margin: 3px; 
-    font-family: inherit; 
-    padding: 1.5px; 
+
+#msg {
+    width: 50vw;
+    margin: 3px;
+    font-family: inherit;
+    padding: 1.5px;
 }
-form input:focus{
+
+form input:focus {
     outline: none;
 }
-form textarea:focus{
+
+form textarea:focus {
     outline: none;
 }
-.arrow-up::after{
+
+.arrow-up::after {
     content: "";
     /* background-color: tomato; */
     width: 35px;
     height: 35px;
-    position: absolute;        /* important */
+    position: absolute;
+    /* important */
     margin: auto;
     top: 32rem;
     bottom: 0;
@@ -226,7 +262,7 @@ form textarea:focus{
     right: 0;
     border-left: 4px solid rgba(221, 203, 203, 0.712);
     border-top: 4px solid rgba(221, 203, 203, 0.712);
-    transform: rotate(45deg); 
+    transform: rotate(45deg);
     cursor: pointer;
 }
 
@@ -236,31 +272,55 @@ form textarea:focus{
 
 
 /* For Responsivenss */
-@media screen and (min-width: 359px) and (max-width: 430px){
-    
-    .skill-set{
+@media screen and (min-width: 359px) and (max-width: 430px) {
+
+    /* page-3 */
+    .skill-set {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
     }
-    .skills{
+
+    .skills {
         width: 50vw;
-        height: 24vh;
+        height: 20vh;
         overflow: auto;
         margin-top: 5px;
     }
-    .skills img{
+
+    .skills img {
         width: 50px;
         height: 50px;
     }
-    .skills p{
-        letter-spacing: 1px;
+
+    .skills p {
+        letter-spacing: 0.8px;
 
     }
+
+    /* Page-4    */
+    #div4-content {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #div4-content h1 {
+        margin-top: 25%;
+        padding: 2px;
+    }
+
+    #div4-content p {
+        font-size: 0.6rem;
+        padding: 2px;
+    }
+
+    #name, #email, #btn {
+        width: 74vw;
+        padding: 1.5px;
+    }
+
+    #msg {
+        width: 74vw;
+    }
 }
-    
-
-
-
-

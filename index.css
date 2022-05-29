@@ -296,22 +296,18 @@ form textarea:focus {
         align-items: center;
         justify-content: center;
     }
-
     .skills {
         width: 50vw;
         height: 20vh;
         overflow: auto;
         margin-top: 5px;
     }
-
     .skills img {
         width: 50px;
         height: 50px;
     }
-
     .skills p {
         letter-spacing: 0.8px;
-
     }
 
     /* Page-4    */
@@ -319,28 +315,24 @@ form textarea:focus {
         padding-left: 5%;
         padding-right: 5%;
     }
-
     #div4-content h1 {
         margin-top: 25%;
         padding: 2px;
     }
-
     #div4-content p {
         font-size: 0.6rem;
         padding: 2px;
     }
-
     #name, #email, #btn {
         width: 74vw;
         padding: 1.5px;
     }
-
     #msg {
         width: 74vw;
     }
 }
 
-@media screen and (min-height: 450px) and (max-height: 540px){
+@media screen and (min-height: 360px) and (max-height: 580px){
     .arrow-down::after {        
         width: 25px;
         height: 25px;

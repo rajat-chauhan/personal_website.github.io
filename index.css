@@ -272,7 +272,7 @@ form textarea:focus {
 
 
 /* For Responsivenss */
-@media screen and (min-width: 359px) and (max-width: 430px) {
+@media screen and (min-width: 359px) and (max-width: 540px) {
 
     /* page-3 */
     .skill-set {
@@ -322,5 +322,32 @@ form textarea:focus {
 
     #msg {
         width: 74vw;
+    }
+}
+
+@media screen and (min-height: 450px) and (max-height: 540px){
+    .arrow-down::after {        
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        /* important */
+        margin: auto;
+        top: 30rem;
+        bottom: 0;
+        left: 0;
+        right: 0;
+       
+    }
+    #div1 h1 {
+        margin: 0.8rem;    
+    }
+    #div1 i {
+        font-size: 1.2rem;
+    }
+    
+    #div1 p {
+        margin-top: 0.5rem;
+        letter-spacing: 0.2px;
+        font-size: 1rem;
     }
 }

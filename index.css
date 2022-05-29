@@ -286,7 +286,7 @@ form textarea:focus {
         margin-top: 0.5rem;
         letter-spacing: 0.4px;
         font-size: 1rem;
-        margin: 2px;
+        margin-top: 2px;
     }
     /* page-3 */
     .skill-set {

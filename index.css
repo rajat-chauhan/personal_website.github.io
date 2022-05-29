@@ -14,10 +14,7 @@ body {
     overflow: hidden;
 }
 
-#btn1,
-#btn2,
-#btn3,
-#btn4 {
+#btn1, #btn2, #btn3, #btn4 {
     display: none;
     position: absolute;
     /* important */
@@ -217,9 +214,7 @@ body {
     text-shadow: 1px 1px 2px black;
 }
 
-#name,
-#email,
-#btn {
+#name, #email, #btn {
     width: 50vw;
     height: 5vh;
     margin: 3px;
@@ -286,8 +281,14 @@ form textarea:focus {
         margin-top: 0.5rem;
         letter-spacing: 0.4px;
         font-size: 1rem;
-        margin-top: 2px;
+        margin-top: 0.8rem;
     }
+
+    /* Page-2 */
+    #div2 div img {
+        margin-top: 15%;
+    }
+
     /* page-3 */
     .skill-set {
         display: flex;

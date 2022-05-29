@@ -332,7 +332,7 @@ form textarea:focus {
     }
 }
 
-/* @media screen and (min-height: 360px) and (max-height: 680px){
+@media screen and (min-height: 360px) and (max-height: 600px){
     .arrow-down::after {        
         width: 25px;
         height: 25px;
@@ -356,4 +356,4 @@ form textarea:focus {
         letter-spacing: 0.2px;
         font-size: 1rem;
     }
-} */
+}

@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: steelblue;
+    background-color: transparent;
 }
 
 .mydivs {
@@ -32,62 +32,50 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    border-right: 4px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+    border-right: 4px solid rgba(250, 248, 248, 0.8);
+    border-bottom: 4px solid rgba(252, 250, 250, 0.8);
     transform: rotate(45deg);
     cursor: pointer;
 }
 
-#div1 h1 {
-    color: white;
-    margin: 1rem;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
-}
-
-#div1 i {
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
-    color: white;
-    font-size: 1.5rem;
-}
-
-#div1 p {
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
-    color: white;
-    margin-top: 0.5rem;
-    letter-spacing: 0.4px;
-    font-size: 1.2rem;
-}
-
-.img-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-#profile-pic {
-    width: 210px;
-    height: 180px;
-    border-radius: 50%;
-}
-
-#profile-pic img {
-    height: 180px;
-    border-radius: 50%;
-}
 
 #div1 {
-    background-color: #16a596;
-    background-image: url("./images/rajat_pic_.jpg");
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* move items horizontally*/
-    justify-content: center;
-    /* move items vertically */
+    background-image: url("./images/pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
     text-align: center;
     position: relative;
 }
+
+.p1_content{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    right: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 60vw;
+    padding: 50px;
+}
+#div1 h1{
+    color: orange;
+    text-shadow: 5px 5px 10px black;
+}
+#div1 i{
+    color: black;
+    text-shadow: 4px 4px 8px white;
+    font-weight: 700;
+}
+#div1 p{
+    color: orange;
+    text-shadow: 1px 1px 2px black;
+}
+
 
 /* Page-2 */
 #div2 {
@@ -202,16 +190,18 @@ body {
 }
 
 #div4-content h1 {
-    color: white;
-    text-shadow: 1px 1px 2px black;
+    color: orange;
+    text-shadow: 2px 2px 4px black;
     margin-top: 13%;
+    margin-bottom: 10px;
     padding: 2px;
 }
 
 #div4-content p {
     color: white;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     padding: 2px;
+    margin-bottom: 8px;
     text-shadow: 1px 1px 2px black;
 }
 
@@ -221,9 +211,14 @@ body {
     margin: 3px;
     padding: 1.5px;
 }
+#btn{
+    background-color: grey;
+    font-weight: 600;
+    border: none;
+}
 
 #btn:hover {
-    background-color: darkgrey;
+    background-color: orange;
     border: none;
     outline: none;
     cursor: pointer;

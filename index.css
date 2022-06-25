@@ -70,6 +70,17 @@ body {
         width: 42vw;
     }
 }
+@media screen and (min-width: 300px) and (max-width: 540px){
+    #div1{
+        background-size: cover;
+    }
+    .p1_content{
+        top: 50%;
+        left: 9%;
+        width: 85vw;
+        padding: 10px;
+    }
+}
 
 #div1 h1{
     color: orange;

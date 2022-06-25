@@ -248,6 +248,20 @@ body {
     .skills h3{
         font-size: 12px;
     }
+    .p3-lower-part{
+        margin-bottom: 8vh;
+        align-items: center;
+    }
+    .p3_cont{
+        align-items: center;
+    }
+    .p3_cont h2{
+        color: white;
+        font-size: 16px;
+        /* margin-left: 8px; */
+        padding-bottom: 5px;
+        text-align: center;
+    }
 }
 
 

@@ -161,7 +161,11 @@ body {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    background-color: rgba(0, 0, 0, 1);
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background-image: url("./images/skillss.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
 }
 
 .skill-title {
@@ -181,8 +185,8 @@ body {
 
 .skills {
     background-color: rgb(247, 202, 120, 1);;
-    width: 10vw;
-    height: 100px;
+    width: 9vw;
+    height: 90px;
     padding: 8px;
     text-align: center;
     font-size: 14px;
@@ -192,8 +196,8 @@ body {
 }
 
 .skills img {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
 }
 
 .skills h3 {
@@ -211,24 +215,32 @@ body {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 .p3_cont{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .p3_cont h2{
-    color: white;
+    color: black;
     font-size: 18px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 /* For Responsiveness Page-3 */
 
 @media screen and (min-width: 359px) and (max-width: 540px){
+    #div3{
+        background-image: url("./images/skillss1.jpg");
+        background-size: 100% 100%;
+    }
+    .skill-title h1 {
+        text-shadow: 2px 2px 4px black;
+        margin-top: 12px;
+    }
     .skill-set {
         display: flex;
         /* align-items: center; */
@@ -242,22 +254,27 @@ body {
         margin: 5px;
     }
     .skills img {
-        width: 20px;
-        height: 20px;
+        width: 22px;
+        height: 22px;
     }
     .skills h3{
         font-size: 12px;
+        margin: 2px;
     }
     .p3-lower-part{
-        margin-bottom: 8vh;
         align-items: center;
+        margin-bottom: 8vh;
+        width: 80vw;
+        background-color: rgba(211, 207, 207, 0.7);
+        border-radius: 5px;
     }
     .p3_cont{
         align-items: center;
+        margin-top: 10px;
     }
     .p3_cont h2{
-        color: white;
-        font-size: 16px;
+        color: black;
+        font-size: 18px;
         /* margin-left: 8px; */
         padding-bottom: 5px;
         text-align: center;

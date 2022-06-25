@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: transparent;
+    background-color: rgb(199, 204, 198);
 }
 
 .mydivs {
@@ -43,7 +43,7 @@ body {
     background-image: url("./images/pic.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: contain;
     height: 100vh;
     text-align: center;
     position: relative;
@@ -52,28 +52,40 @@ body {
 .p1_content{
     position: absolute;
     top: 50%;
-    left: 20%;
+    left: 25%;
     right: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.6);
-    width: 60vw;
+    background-color: rgba(189, 247, 177, 0.6);
+    width: 50vw;
     padding: 50px;
+    border-radius: 20px;
 }
+
+@media screen and (min-width: 1115px){
+    .p1_content{
+        left: 28.5%;
+        width: 42vw;
+    }
+}
+
 #div1 h1{
     color: orange;
     text-shadow: 5px 5px 10px black;
+    padding: 0 10px 10px;
 }
 #div1 i{
     color: black;
     text-shadow: 4px 4px 8px white;
     font-weight: 700;
+    font-size: 14px;
 }
 #div1 p{
     color: orange;
     text-shadow: 1px 1px 2px black;
+    padding: 10px;
 }
 
 
@@ -123,7 +135,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: #16a596;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .skill-title {
@@ -132,8 +144,8 @@ body {
 }
 
 .skill-title h1 {
-    color: white;
-    text-shadow: 1px 1px 5px black;
+    color: orange;
+    text-shadow: 2px 2px 4px black;
 }
 
 .skill-set {
@@ -142,12 +154,13 @@ body {
 }
 
 .skills {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(247, 202, 120, 1);;
     width: 25%;
-    padding: 5px;
+    height: 240px;
+    padding: 8px;
     text-align: center;
     font-size: 14px;
-    color: white;
+    color: black;
     border-radius: 5px;
 }
 
@@ -158,11 +171,14 @@ body {
 
 .skills h3 {
     margin: 5px;
-    text-shadow: 1px 1px 1.5px black;
+    font-size: 18px;
+    text-shadow: 1px 1px 1.5px white;
 }
 
 .skills p {
+    font-size: 13px;
     letter-spacing: 1.5px;
+    font-weight: 600;
 }
 
 /* Page-4 */
@@ -192,7 +208,7 @@ body {
 #div4-content h1 {
     color: orange;
     text-shadow: 2px 2px 4px black;
-    margin-top: 13%;
+    margin-top: 10%;
     margin-bottom: 10px;
     padding: 2px;
 }
@@ -218,7 +234,7 @@ body {
 }
 
 #btn:hover {
-    background-color: orange;
+    background-color: rgb(247, 202, 120);
     border: none;
     outline: none;
     cursor: pointer;
@@ -247,7 +263,7 @@ form textarea:focus {
     position: absolute;
     /* important */
     margin: auto;
-    top: 32rem;
+    top: 34rem;
     bottom: 0;
     left: 0;
     right: 0;

@@ -87,7 +87,7 @@ body {
         width: 42vw;
     }
 }
-@media screen and (min-width: 300px) and (max-width: 540px){
+@media screen and (min-width: 200px) and (max-width: 600px){
     #div1{
         background-size: cover;
     }
@@ -151,7 +151,7 @@ body {
     color: white;
     letter-spacing: 0.2px;
     font-size: 1rem;
-    line-height: 2;
+    line-height: 1.6;
 }
 
 /* Page-3 */
@@ -309,6 +309,12 @@ form textarea:focus {
     /* Page-2 */
     #div2 div img {
         margin-top: 15%;
+        width: 80px;
+        height: 80px;
+    }
+    #div2 div p{
+        text-align: justify;
+        font-size: 15px;
     }
 
     /* page-3 */

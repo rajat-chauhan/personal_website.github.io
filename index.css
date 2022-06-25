@@ -63,25 +63,6 @@ body {
     padding: 50px;
     border-radius: 20px;
 }
-
-@media screen and (min-width: 1115px){
-    .p1_content{
-        left: 28.5%;
-        width: 42vw;
-    }
-}
-@media screen and (min-width: 300px) and (max-width: 540px){
-    #div1{
-        background-size: cover;
-    }
-    .p1_content{
-        top: 50%;
-        left: 9%;
-        width: 85vw;
-        padding: 10px;
-    }
-}
-
 #div1 h1{
     color: orange;
     text-shadow: 5px 5px 10px black;
@@ -98,6 +79,40 @@ body {
     text-shadow: 1px 1px 2px black;
     padding: 10px;
 }
+
+
+@media screen and (min-width: 1115px){
+    .p1_content{
+        left: 28.5%;
+        width: 42vw;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 540px){
+    #div1{
+        background-size: cover;
+    }
+    .p1_content{
+        top: 50%;
+        left: 9%;
+        width: 85vw;
+        padding: 10px;
+        background-color: rgba(189, 247, 177, 0.4);
+    }
+    #div1 i{
+        font-size: 14px;
+    }
+    #div1 h1 {
+        font-size: 28px;
+        margin: 5px;
+    }
+    #div1 p {
+        margin-top: 0.5rem;
+        letter-spacing: 0.6px;
+        font-size: 16px;
+        margin-top: 8px;
+    }
+}
+
 
 
 /* Page-2 */
@@ -291,22 +306,6 @@ form textarea:focus {
 
 /* For Responsivenss */
 @media screen and (min-width: 359px) and (max-width: 540px) {
-    /* Page-1 */
-    #div1 h1 {
-        font-size: 1.5rem;
-        margin: 0.8rem;
-    }
-    #div1 i {
-        font-size: 1.2rem;
-    }
-    
-    #div1 p {
-        margin-top: 0.5rem;
-        letter-spacing: 0.4px;
-        font-size: 1rem;
-        margin-top: 0.8rem;
-    }
-
     /* Page-2 */
     #div2 div img {
         margin-top: 15%;

@@ -159,19 +159,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
     background-color: rgba(0, 0, 0, 1);
 }
 
 .skill-title {
-    position: absolute;
-    top: 5%;
+    text-align: center;
 }
 
 .skill-title h1 {
     color: orange;
     text-shadow: 2px 2px 4px black;
+    margin-top: 15px;
 }
 
 .skill-set {
@@ -181,18 +181,19 @@ body {
 
 .skills {
     background-color: rgb(247, 202, 120, 1);;
-    width: 25%;
-    height: 240px;
+    width: 10vw;
+    height: 100px;
     padding: 8px;
     text-align: center;
     font-size: 14px;
     color: black;
     border-radius: 5px;
+    margin: 20px;
 }
 
 .skills img {
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
 }
 
 .skills h3 {
@@ -206,6 +207,49 @@ body {
     letter-spacing: 1.5px;
     font-weight: 600;
 }
+.p3-lower-part{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.p3_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.p3_cont h2{
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+/* For Responsiveness Page-3 */
+
+@media screen and (min-width: 359px) and (max-width: 540px){
+    .skill-set {
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-between;
+    }
+    .skills {
+        width: 20vw;
+        height: 10vh;
+        overflow: auto;
+        margin-top: 5px;
+        margin: 5px;
+    }
+    .skills img {
+        width: 20px;
+        height: 20px;
+    }
+    .skills h3{
+        font-size: 12px;
+    }
+}
+
 
 /* Page-4 */
 #div4 {
@@ -317,26 +361,6 @@ form textarea:focus {
         font-size: 15px;
     }
 
-    /* page-3 */
-    .skill-set {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .skills {
-        width: 50vw;
-        height: 20vh;
-        overflow: auto;
-        margin-top: 5px;
-    }
-    .skills img {
-        width: 50px;
-        height: 50px;
-    }
-    .skills p {
-        letter-spacing: 0.8px;
-    }
 
     /* Page-4    */
     #div4-content {

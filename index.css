@@ -265,7 +265,8 @@ body {
         align-items: center;
         margin-bottom: 8vh;
         width: 80vw;
-        background-color: rgba(211, 207, 207, 0.7);
+        background-color: rgba(221, 216, 216, 0.7);
+        box-shadow: 5px 5px 10px black,  -5px -5px 10px black;
         border-radius: 5px;
     }
     .p3_cont{

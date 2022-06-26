@@ -81,18 +81,15 @@ body {
 
 @media screen and (min-width: 1115px){
     .p1_content{
-        left: 28.5%;
-        width: 42vw;
+        width: 50vw;
     }
 }
 @media screen and (min-width: 200px) and (max-width: 600px){
-    #div1{
-        background-size: cover;
-    }
+    
     .p1_content{
         top: 50%;
         left: 9%;
-        width: 85vw;
+        width: 50vw;
         padding: 10px;
         background-color: rgba(189, 247, 177, 0.4);
     }
@@ -162,7 +159,6 @@ body {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    /* background-color: rgba(0, 0, 0, 0.8); */
     background-image: url("./images/skillss.jpg");
     background-repeat: no-repeat;
     background-position: center;

@@ -3,12 +3,14 @@ let arrow2 = document.getElementById("arrow2");
 let arrow3 = document.getElementById("arrow3");
 let arrow4 = document.getElementById("arrow4");
 let arrow5 = document.getElementById("arrow5");
+let arrow6 = document.getElementById("arrow6");
 
 let btn1 = document.getElementById("btn1");
 let btn2= document.getElementById("btn2");
 let btn3 = document.getElementById("btn3");
 let btn4 = document.getElementById("btn4");
 let btn5 = document.getElementById("btn5");
+let btn6 = document.getElementById("btn6");
 
 arrow1.addEventListener('click', function(){
     btn1.click();
@@ -28,6 +30,9 @@ arrow4.addEventListener('click', function(){
 
 arrow5.addEventListener('click', function(){
     btn5.click();
+})
+arrow6.addEventListener('click', function(){
+    btn6.click();
 })
 
 //JS smooth scrolling to anchor

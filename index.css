@@ -15,7 +15,7 @@ body {
     overflow: hidden;
 }
 
-#btn1, #btn2, #btn3, #btn4, #btn5 {
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6 {
     display: none;
     position: absolute;
     /* important */
@@ -299,6 +299,75 @@ body {
     }
 }
 
+
+/* Page-education */
+#div6 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    background-image: url("./images/edu1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p6_heading{
+    color: orange;
+    text-shadow: 2px 2px 4px black;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.p6_desc{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+}
+.p6_details{
+    padding: 5px;
+    margin-bottom: 1.5vh;
+    margin-top: 5px;
+    background-color: rgba(221, 216, 216, 0.6);
+    border-radius: 10PX;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 6px green,  -5px -5px 6px green;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.p6_details_inner{
+    font-size: 14px;
+    width: 100%;
+}
+
+
+
+@media screen and (min-width: 350px) and (max-width: 540px){
+    #div6{
+        background-image: url("./images/education.jpg"); 
+        background-size: cover;
+    }
+    .p6_details{
+        width: 80vw;
+        padding: 5px;
+        margin-bottom: 4vh;
+        background-color: rgba(221, 216, 216, 0.6);
+        box-shadow: 2px 2px 4px green,  -2px -2px 4px green;
+    }
+    .p6_details h3{
+        font-size: 14px;
+    }
+    .p6_details_inner{
+        font-size: 12px;
+        width: 100%;
+    }
+}
 
 
 /* Page-4 */

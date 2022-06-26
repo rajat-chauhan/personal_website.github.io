@@ -353,10 +353,13 @@ body {
         background-image: url("./images/education.jpg"); 
         background-size: cover;
     }
+    .p6_desc{
+        height: 65vh;
+    }
     .p6_details{
         width: 80vw;
         padding: 5px;
-        margin-bottom: 4vh;
+        margin-bottom: 3vh;
         background-color: rgba(221, 216, 216, 0.6);
         box-shadow: 2px 2px 4px green,  -2px -2px 4px green;
     }

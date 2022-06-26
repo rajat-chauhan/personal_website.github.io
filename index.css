@@ -99,8 +99,7 @@ body {
         height: 50vh;
     }
     .p1_content{
-        top: 50%;
-        left: 9%;
+        /* margin-bottom: 10vh; */
         width: 100vw;
         height: 50vh;
         padding: 10px;
@@ -118,6 +117,7 @@ body {
         letter-spacing: 0.6px;
         font-size: 16px;
         margin-top: 8px;
+        margin-bottom: 30px;
     }
 }
 

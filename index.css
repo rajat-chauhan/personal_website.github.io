@@ -230,7 +230,6 @@ body {
 .p3_cont h2{
     color: black;
     font-size: 18px;
-    /* margin-left: 15px; */
 }
 
 /* For Responsiveness Page-3 */
@@ -242,11 +241,10 @@ body {
     }
     .skill-title h1 {
         text-shadow: 2px 2px 4px black;
-        margin-top: 12px;
+        margin-top: 4vh;
     }
     .skill-set {
         display: flex;
-        /* align-items: center; */
         justify-content: space-between;
     }
     .skills {
@@ -267,7 +265,7 @@ body {
     }
     .p3-lower-part{
         align-items: center;
-        margin-bottom: 8vh;
+        margin-bottom: 10vh;
         width: 80vw;
         background-color: rgba(221, 216, 216, 0.7);
         box-shadow: 5px 5px 10px black,  -5px -5px 10px black;

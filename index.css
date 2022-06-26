@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body {
@@ -22,11 +23,9 @@ body {
 
 .arrow-down::after {
     content: "";
-    /* background-color: tomato; */
     width: 35px;
     height: 35px;
     position: absolute;
-    /* important */
     margin: auto;
     top: 32rem;
     bottom: 0;
@@ -40,28 +39,27 @@ body {
 
 
 #div1 {
-    background-image: url("./images/pic.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    display: flex;
+    width: 100vw;
     height: 100vh;
     text-align: center;
+    overflow: hidden;
     position: relative;
 }
-
+.p1_img{
+    width: 50vw; 
+    overflow: hidden;
+}
+.p1_img img{
+    width: 50vw;
+    height: 100vh;
+}
 .p1_content{
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    right: 20%;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(189, 247, 177, 0.6);
-    width: 50vw;
-    padding: 50px;
-    border-radius: 20px;
 }
 #div1 h1{
     color: orange;
@@ -117,17 +115,19 @@ body {
 
 /* Page-2 */
 #div2 {
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-image: url("./images/computer.jpg");
     background-size: 100% 100%;
     text-align: center;
     position: relative;
 }
 
-#div2 div {
+.p2_content{
     background-color: rgba(3, 3, 3, 0.7);
     height: 100vh;
     width: 100vw;
@@ -188,7 +188,7 @@ body {
 .skills {
     background-color: rgb(247, 202, 120, 1);;
     width: 8vw;
-    height: 80px;
+    height: 85px;
     padding: 5px;
     text-align: center;
     font-size: 14px;
@@ -206,6 +206,7 @@ body {
     margin: 4px;
     font-size: 16px;
     text-shadow: 1px 1px 1.5px white;
+    overflow: hidden;
 }
 
 .skills p {
@@ -219,7 +220,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 70vw;
-    margin-bottom: 30px;
+    margin-bottom: 10vh;
     background-color: rgba(221, 216, 216, 0.7);
     box-shadow: 5px 5px 10px black,  -5px -5px 10px black;
 }
@@ -266,6 +267,7 @@ body {
     .skills h3{
         font-size: 12px;
         margin: 2px;
+        overflow: hidden;
     }
     .p3-lower-part{
         align-items: center;
@@ -293,6 +295,8 @@ body {
 
 /* Page-4 */
 #div4 {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -308,12 +312,13 @@ body {
     text-shadow: 2px 2px 4px black;
     margin-top: 20px;
     text-transform: uppercase;
+    overflow: hidden;
 }
 #div4 p{
     color: white;
 }
 #div4_content{
-    height: 60vh;
+    height: 85vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -324,6 +329,7 @@ body {
     margin-top: 20px;
     padding: 10px;
     width: 100vw;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -341,6 +347,7 @@ body {
     border-radius: 10px;
     font-size: 22px;
     position: relative;
+    overflow: hidden;
 }
 .project_links{
     text-decoration: none;

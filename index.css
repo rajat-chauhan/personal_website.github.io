@@ -165,7 +165,7 @@ body {
     background-image: url("./images/skillss.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain; 
+    background-size: cover; 
 }
 
 .skill-title {
@@ -185,9 +185,9 @@ body {
 
 .skills {
     background-color: rgb(247, 202, 120, 1);;
-    width: 9vw;
-    height: 90px;
-    padding: 8px;
+    width: 8vw;
+    height: 80px;
+    padding: 5px;
     text-align: center;
     font-size: 14px;
     color: black;
@@ -196,13 +196,13 @@ body {
 }
 
 .skills img {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
 }
 
 .skills h3 {
-    margin: 5px;
-    font-size: 18px;
+    margin: 4px;
+    font-size: 16px;
     text-shadow: 1px 1px 1.5px white;
 }
 
@@ -216,6 +216,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 70vw;
+    margin-bottom: 30px;
+    background-color: rgba(221, 216, 216, 0.7);
+    box-shadow: 5px 5px 10px black,  -5px -5px 10px black;
 }
 .p3_cont{
     display: flex;
@@ -234,7 +238,7 @@ body {
 
 @media screen and (min-width: 359px) and (max-width: 540px){
     #div3{
-        background-image: url("./images/skillss1.jpg");
+        background-image: url("./images/skillss.jpg");
         background-size: 100% 100%;
     }
     .skill-title h1 {
@@ -267,7 +271,7 @@ body {
         width: 80vw;
         background-color: rgba(221, 216, 216, 0.7);
         box-shadow: 5px 5px 10px black,  -5px -5px 10px black;
-        border-radius: 5px;
+        border-radius: 8px;
     }
     .p3_cont{
         align-items: center;

@@ -8,6 +8,9 @@
 
 body {
     background-color: rgb(199, 204, 198);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
 
 .mydivs {
@@ -15,29 +18,210 @@ body {
     overflow: hidden;
 }
 
-#btn1, #btn2, #btn3, #btn4, #btn5, #btn6 {
-    display: none;
-    position: absolute;
-    /* important */
+/* Navigation */
+
+#top-nav-bg {
+    width: 100vw;
+    height: 8vh;
+    background-color: rgba(80, 79, 79, 0.7);
+    position: fixed;
+    z-index: 1000;
 }
 
-.arrow-down::after {
-    content: "";
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    margin: auto;
-    top: 32rem;
-    bottom: 0;
+.top-nav {
+    position: fixed;   
+    z-index: 1000;
+}
+
+.top-nav-list {
+    position: fixed;
+    top: 0;
     left: 0;
     right: 0;
-    border-right: 4px solid rgba(230, 110, 31, 0.8);
-    border-bottom: 4px solid rgba(230, 110, 31, 0.8);
-    transform: rotate(45deg);
+    height: 8vh;
+    padding-top: 2vh;
+    text-align: center;
+    z-index: 1000;
+}
+
+.top-list-items {
+    display: inline;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.top-list-items .href {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.href:hover {
+    color: orange;
+}
+
+.href:active {
+    color: green;
+}
+
+.side-href {
+    text-decoration: none;
+    color: black;
+}
+
+.side-list-items:hover {
+    background-color: darkgray;
+    color: orange;
+    padding: 2px;
+}
+
+.btn-styling {
+    background-color: transparent;
+    border: none;
     cursor: pointer;
+    font-size: 16px;
+}
+
+.openSideNavBtn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    color: white;
+}
+
+.side-nav {
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 99vh;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform .5s ease-in-out;
+}
+
+.wrap-black {
+    background-color: rgb(34, 31, 31);
+    width: 27vw;
+    /* max-width: 480px; */
+    transition-delay: 0.2s;
+}
+
+.wrap-white {
+    background-color: white;
+    width: 25vw;
+    padding: 40px;
+    position: relative;
+}
+
+.closeSideNavBtn {
+    opacity: 0.5;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 20px;
+}
+
+.side-nav-list {
+    list-style-type: none;
+}
+
+.side-list-items {
+    margin: 20px 0;
+}
+
+.href-side-top {
+    font-weight: 900;
+    text-decoration: none;
+    color: rgb(34, 31, 31);
+}
+
+.href-side-top:hover {
+    color: orange;
 }
 
 
+.visible {
+    transform: translateX(0);
+}
+
+
+/* For Responsiveness */
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    #top-nav-bg {
+        height: 6%;
+        /* background-color: rgb(53, 51, 51); */
+        background-color: rgba(80, 79, 79, 0);
+    }    
+    .top-nav {
+        display: none;
+    }
+
+    .top-list-items {
+        display: inline;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .wrap-black {
+        background-color: rgb(34, 31, 31);
+        width: 40vw;
+        transition-delay: 0.2s;
+    }
+
+    .wrap-white {
+        width: 36vw;
+        padding: 5px;
+        padding-top: 20px;
+        position: relative;
+    }
+
+    .side-list-items {
+        margin: 16px 0;
+    }
+
+    .side-href {
+        font-size: 12px;
+    }
+
+    .href-side-top {
+        margin-top: 30px;
+        font-size: 12px;
+        color: rgb(34, 31, 31);
+    }
+
+    .closeSideNavBtn {
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (min-height: 320px) and (max-height: 420px) {
+    #top-nav-bg {
+        height: 6.5%;
+        background-color: rgb(53, 51, 51);
+    }
+    .href{
+        font-size: 12px;
+    }
+    .btn-styling {
+        font-size: 12px;
+    }
+    .top-nav-list {       
+        right: 5px;
+        margin-top: 5px;
+    }
+}
+
+
+
+
+/* Page1 */
 #div1 {
     display: flex;
     width: 100vw;
@@ -108,6 +292,7 @@ body {
     }
     #div1 i{
         font-size: 14px;
+        text-shadow: 2px 2px 2px black;
     }
     #div1 h1 {
         font-size: 28px;
@@ -330,8 +515,8 @@ body {
     align-items: center; 
 }
 .p6_details{
-    width: 50vw;
-    height: 22vh;
+    width: 45vw;
+    height: 20vh;
     /* padding: 5px; */
     margin-bottom: 4vh;
     margin-top: 5px;
@@ -565,28 +750,6 @@ form input:focus {
 form textarea:focus {
     outline: none;
 }
-
-.arrow-up::after {
-    content: "";
-    /* background-color: tomato; */
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    /* important */
-    margin: auto;
-    top: 34rem;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-left: 4px solid rgba(230, 110, 31, 0.8);
-    border-top: 4px solid rgba(230, 110, 31, 0.8);
-    transform: rotate(45deg);
-    cursor: pointer;
-}
-
-
-
-
 
 
 /* For Responsivenss */

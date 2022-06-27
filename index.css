@@ -75,8 +75,11 @@ body {
     padding: 2px;
 }
 
-.btn-styling {
-    background-color: transparent;
+.btn-styling1 {
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    background-color: rgba(3, 3, 3, 0.3);
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -114,7 +117,14 @@ body {
     padding: 40px;
     position: relative;
 }
-
+.btn-styling2 {
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
 .closeSideNavBtn {
     opacity: 0.5;
     position: absolute;
@@ -265,6 +275,7 @@ body {
 }
 
 
+/* Responsiveness Page-1 */
 @media screen and (min-width: 1115px){
     .p1_content{
         width: 50vw;
@@ -272,22 +283,27 @@ body {
 }
 @media screen and (min-width: 200px) and (max-width: 600px){
     #div1{
-        display: flex;
-        flex-direction: column;
+     display: block;
+     position: relative;
     }
     .p1_img{
         width: 100vw; 
+        height: 100vh;
         overflow: hidden;
     }
     .p1_img img{
         width: 100vw;
-        height: 50vh;
+        height: 100vh;
     }
     .p1_content{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50vh;
         width: 100vw;
         height: 50vh;
         padding: 10px;
-        background-color: rgba(1, 1, 1, 0.8);
+        background-color: rgba(49, 49, 49, 0.8);
         /* background-color: rgba(189, 247, 177, 0.4); */
     }
     #div1 i{

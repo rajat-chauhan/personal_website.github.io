@@ -124,6 +124,7 @@ body {
     border: none;
     cursor: pointer;
     font-size: 16px;
+    overflow: hidden;
 }
 .closeSideNavBtn {
     opacity: 0.5;
@@ -384,7 +385,7 @@ body {
 .skill-title h1 {
     color: orange;
     text-shadow: 2px 2px 4px black;
-    margin-top: 15px;
+    margin-top: 9vh;
     text-transform: uppercase;
 }
 
@@ -424,10 +425,17 @@ body {
 }
 .p3-lower-part{
     width: 100vw;
+    height: 84vh;
+    margin-top: 2vh;
+}
+.p3-lower-part-inner{
+    width: 60vw;
+    height: 80vh;
+    margin-left: 20vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 70vw; */
+    border-radius: 10px;
     background-color: rgba(221, 216, 216, 0.7);
     box-shadow: 5px 5px 10px black,  -5px -5px 10px black;
 }
@@ -437,10 +445,12 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 15px;
+    overflow: hidden;
 }
 .p3_cont h2{
     color: black;
     font-size: 18px;
+    margin-top: 5px;
 }
 
 /* For Responsiveness Page-3 */
@@ -474,7 +484,7 @@ body {
         margin: 2px;
         overflow: hidden;
     }
-    .p3-lower-part{
+    .p3-lower-part-inner{
         align-items: center;
         margin: 10vh 2vh 0 2.5vh;
         width: 90vw;
@@ -511,21 +521,21 @@ body {
 .p6_heading{
     color: orange;
     text-shadow: 2px 2px 4px black;
-    margin-top: 20px;
+    margin-top: 10vh;
     text-transform: uppercase;
 }
 .p6_desc{
-   
+    margin-top: 4vh;
     width: 100vw;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center; 
 }
 .p6_details{
-    width: 45vw;
-    height: 20vh;
+    width: 50vw;
+    height: 18vh;
     /* padding: 5px; */
     margin-bottom: 4vh;
     margin-top: 5px;
@@ -550,7 +560,7 @@ body {
     font-style: italic;
     width: 25vw;
     position: absolute;
-    top: 6vh;
+    top: 6.5vh;
 }
 pre{
     text-align: center;
@@ -603,28 +613,25 @@ pre{
     background-size: 100% 100%;
 }
 #div4 h1{
+    margin-top: 9vh;
     color: orange;
     text-shadow: 2px 2px 4px black;
-    margin-top: 20px;
     text-transform: uppercase;
     overflow: hidden;
+    text-align: center;
 }
 #div4 p{
     color: white;
 }
 #div4_content{
-    height: 85vh;
+    height: 100vh;
     width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
 }
 .project_list{
-    margin-top: 20px;
+    margin-top: 2.5vh;
     padding: 10px;
     width: 100vw;
-    height: 75vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -207,6 +207,7 @@ body {
         top: 6px;
         right: 6px;
         font-size: 18px;
+        overflow: hidden;
     }
 }
 

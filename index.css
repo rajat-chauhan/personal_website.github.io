@@ -374,19 +374,21 @@ pre{
         margin-bottom: 5vh;
     }
     .p6_details{
-        width: 90vw;
-        height: 18vh;
+        width: 95vw;
+        height: 15vh;
         margin-bottom: 3vh;
         background-color: rgba(252, 243, 243, 0.7);
         box-shadow: 2px 2px 4px orange,  -2px -2px 4px orange;
         text-align: center;
     }
     .p6_details h3{
-        font-size: 14px;
+        font-size: 12px;
+        margin-top: 8px;
     }
     .p6_details_inner{
         font-size: 12px;
         width: 80vw;
+        top: 5vh;
     }
 }
 

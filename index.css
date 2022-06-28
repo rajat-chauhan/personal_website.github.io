@@ -905,17 +905,6 @@ form textarea:focus {
 }
 
 @media screen and (min-height: 360px) and (max-height: 600px){
-    .arrow-down::after {        
-        width: 25px;
-        height: 25px;
-        position: absolute;
-        margin: auto;
-        top: 25rem;
-        bottom: 0;
-        left: 0;
-        right: 0;
-       
-    }
     #div1 h1 {
         margin: 0.8rem;    
     }

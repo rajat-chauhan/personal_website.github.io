@@ -321,7 +321,7 @@ body {
 /* Responsiveness Page-1 and footer*/
 @media screen and (min-width: 200px) and (max-width: 600px){
     #div1 i{
-        font-size: 14px;
+        font-size: 12px;
     }
     #div1 h1 {
         font-size: 28px;
@@ -329,7 +329,7 @@ body {
     }
     .footer{
         height: 6vh;
-        bottom: 6vh;
+        margin-top: 20vh;
     }
     .footer_cont{
         padding: 8px 5px 0;

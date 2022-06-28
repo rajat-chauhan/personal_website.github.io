@@ -654,15 +654,15 @@ pre{
     align-items: center;
     justify-content: space-between;
     position: relative;
-    background-image: url("./images/projectt.jpg");
+    /* background-image: url("./images/projectt.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100%; */
 }
 #div4 h1{
     margin-top: 9vh;
-    color: orange;
-    text-shadow: 2px 2px 4px black;
+    color: black;
+    text-shadow: 2px 2px 4px white;
     text-transform: uppercase;
     overflow: hidden;
     text-align: center;
@@ -686,10 +686,10 @@ pre{
     list-style-type: none;
 }
 .project_listitem{
-    padding: 20px;
+    padding: 16px 20px 20px;
     width: 50vw;
     margin-bottom: 10px;
-    background-color: rgba(1, 1, 1, 0.8);
+    background-color: rgba(3, 3, 3, 0.8);
     box-shadow: 5px 5px 10px white;
     color: white;
     text-transform: uppercase;
@@ -700,8 +700,8 @@ pre{
 }
 .project_links{
     text-decoration: none;
-    color: white;
-    font-size: 22px;
+    color: darkgrey;
+    font-size: 20px;
 }
 .project_links:hover{
     color: orange;
@@ -715,10 +715,10 @@ pre{
 For Responsiveness of Page-4 */
 @media screen and (min-width: 350px) and (max-width: 540px){
     #div4 {
-        background-image: url("./images/project.jpg");
+        /* background-image: url("./images/project.jpg");
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% 100%; */
     }
     #div4 h1{
         margin-top: 4vh;

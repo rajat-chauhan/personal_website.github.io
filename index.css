@@ -372,7 +372,8 @@ body {
     align-items: center;
     justify-content: space-between;
     background-image: url("./images/computer.jpg");
-    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
     text-align: center;
     position: relative;
 }
@@ -844,7 +845,7 @@ form textarea:focus {
         padding: 2px;
     }
     .div5-form{
-        margin-bottom: 22vh;
+        margin-bottom: 25vh;
     }
     #div5-content p {
         font-size: 0.6rem;

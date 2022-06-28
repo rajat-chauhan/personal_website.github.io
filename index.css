@@ -236,49 +236,51 @@ body {
 /* Page1 */
 #div1 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
     text-align: center;
     overflow: hidden;
     position: relative;
 }
-.p1_img{
-    width: 50vw; 
+#profile-pic {
+    width: 210px;
+    height: 180px;
+    border-radius: 50%;
     overflow: hidden;
 }
-.p1_img img{
-    width: 50vw;
-    height: 100vh;
+
+#profile-pic img {
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 .p1_content{
-    width: 50vw;
+    margin-top: 5vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(1, 1, 1, 0.8);
 }
 #div1 h1{
-    color: orange;
-    text-shadow: 5px 5px 10px black;
+    color: black;
+    text-shadow: 5px 5px 10px white;
     padding: 0 10px 10px;
 }
 #div1 i{
-    color: white;
-    text-shadow: 4px 4px 8px black;
+    color: black;
     font-weight: 700;
     font-size: 14px;
 }
-#div1 p{
-    color: orange;
-    text-shadow: 1px 1px 2px black;
-    padding: 10px;
-}
+
 /* Footer */
 .footer{
     width: 100vw;
     height: 8vh;
-    margin-top: 40px;
+    margin-top: 10vh;
 } 
 .footer_cont{
     width: 100vw;
@@ -286,20 +288,19 @@ body {
     display: flex;
     justify-content: center;
     padding: 10px;
-    background-color: rgba(3, 3, 3, 1);
 }
 .mobile_num{
     font-size: 14px;
     font-weight: 700;
-    color: orange;
-    text-shadow: 2px 2px 3px black;
+    color: black;
+    text-shadow: 2px 2px 3px white;
     padding: 5px 20px 5px;
 }
 .email_id{
     font-size: 14px;
     font-weight: 700;
-    color: orange;
-    text-shadow: 2px 2px 3px black;
+    color: black;
+    text-shadow: 2px 2px 3px white;
     padding: 5px 20px 5px;
 }
 .linkedin img{
@@ -318,49 +319,13 @@ body {
 }
 
 /* Responsiveness Page-1 and footer*/
-@media screen and (min-width: 1115px){
-    .p1_content{
-        width: 50vw;
-    }
-}
 @media screen and (min-width: 200px) and (max-width: 600px){
-    #div1{
-     display: block;
-     position: relative;
-    }
-    .p1_img{
-        width: 100vw; 
-        height: 100vh;
-        overflow: hidden;
-    }
-    .p1_img img{
-        width: 100vw;
-        height: 100vh;
-    }
-    .p1_content{
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 50vh;
-        width: 100vw;
-        height: 50vh;
-        padding: 10px;
-        background-color: rgba(49, 49, 49, 0.8);
-    }
     #div1 i{
         font-size: 14px;
-        text-shadow: 2px 2px 2px black;
     }
     #div1 h1 {
         font-size: 28px;
         margin: 5px;
-    }
-    #div1 p {
-        margin-top: 0.5rem;
-        letter-spacing: 0.6px;
-        font-size: 16px;
-        margin-top: 8px;
-        margin-bottom: 9vh;
     }
     .footer{
         height: 6vh;

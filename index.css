@@ -654,15 +654,15 @@ pre{
     align-items: center;
     justify-content: space-between;
     position: relative;
-    /* background-image: url("./images/projectt.jpg");
+    background-image: url("./images/projectt.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%; */
+    background-size: 100% 100%;
 }
 #div4 h1{
     margin-top: 9vh;
-    color: black;
-    text-shadow: 2px 2px 4px white;
+    color: orange;
+    text-shadow: 2px 2px 4px black;
     text-transform: uppercase;
     overflow: hidden;
     text-align: center;
@@ -689,8 +689,8 @@ pre{
     padding: 16px 20px 20px;
     width: 50vw;
     margin-bottom: 10px;
-    background-color: rgba(3, 3, 3, 0.8);
-    box-shadow: 5px 5px 10px white;
+    background-color: rgba(14, 13, 13, 0.8);
+    box-shadow: 5px 5px 10px grey;
     color: white;
     text-transform: uppercase;
     border-radius: 10px;
@@ -700,7 +700,7 @@ pre{
 }
 .project_links{
     text-decoration: none;
-    color: darkgrey;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 20px;
 }
 .project_links:hover{
@@ -715,13 +715,15 @@ pre{
 For Responsiveness of Page-4 */
 @media screen and (min-width: 350px) and (max-width: 540px){
     #div4 {
-        /* background-image: url("./images/project.jpg");
+        background-image: url("./images/project.jpg");
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 100% 100%; */
+        background-size: 100% 100%;
     }
     #div4 h1{
         margin-top: 4vh;
+        color: orange;
+        text-shadow: 2px 2px 4px black;
     } 
     .project_listitem{
         padding: 20px 10px 20px;
@@ -730,7 +732,7 @@ For Responsiveness of Page-4 */
     }
     .project_links{
         text-decoration: none;
-        color: darkgrey;
+        color: white;
         font-size: 16px;
     }
     .fa-arrow-right{

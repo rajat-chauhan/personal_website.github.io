@@ -79,7 +79,7 @@ body {
     width: 25px;
     height: 25px;
     padding: 2px;
-    background-color: rgba(3, 3, 3, 0.3);
+    background-color: rgba(71, 69, 69, 0.6);
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -730,7 +730,7 @@ For Responsiveness of Page-4 */
     }
     .project_links{
         text-decoration: none;
-        color: white;
+        color: darkgrey;
         font-size: 16px;
     }
     .fa-arrow-right{

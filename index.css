@@ -833,6 +833,10 @@ form textarea:focus {
 
 /* For footer responsiveness */
 @media screen and (min-width: 320px) and (max-width: 540px) { 
+    #div5-content{
+        height: 94vh;
+        margin-bottom: 6vh;
+    }
     .footer{
         height: 6vh;
     }
